@@ -1,0 +1,231 @@
+//Polices
+@font-face{
+    font-family: 'OpenSans';
+    src: url(fonts/OpenSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'OpenSans';
+    src: url(fonts/OpenSans-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'OpenSans';
+    src: url(fonts/OpenSans-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+@import 'variable';
+
+//Corps
+body{
+    background:#1E93CC;
+    color:$color;
+    font-family: 'OpenSans', sans-serif;
+    font-size:normal;
+
+
+        & h1{
+            background:$background;
+            color:black;
+            font-weight: normal;
+            text-align:center;
+            font-size:1.5em;
+            margin-top: 50px;
+            padding:18px;
+            margin-bottom:30px;
+        }
+        & section{
+            display:flex;
+            justify-content: center;
+        }
+}
+//Navigation
+nav{
+    background:#333333;
+    background-image: url(../img/restdblogo.png);
+    background-size: 70px;
+    background-position-x: 9%;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    font-size:0.8em;
+    height:45px;
+        & a{
+            color:$color;
+        }
+        & ul li:first-child{
+            padding-left:17%;
+        }
+        & ul li{
+            display:inline-block;
+            margin-right:30px;
+            margin-top:15px;
+        }
+        & ul li:nth-child(8){
+            float:right;
+            margin-right:5%;
+        }
+}
+header {
+    background-image:url(../img/restdblogo.png);
+    background-repeat: no-repeat;
+    background-size:24%;
+    background-position-x: 55%;
+    background-position-y: 15%;
+    display:flex;
+    justify-content: center;
+
+        &.imgheader{
+            margin-top:2.5%;
+            margin-left:8%;
+            justify-content: center;
+            width:(100/5)*1%;
+            height:auto;
+                & img{
+                    width:100%;
+                    height:auto;
+                }
+        }
+}
+
+//Boutons
+
+.buttonheader{
+
+    width:80%;
+    margin-top:11%;
+    margin-left:15%;
+
+    & p{
+        font-size:1.5em;
+        width:55%;
+        margin-bottom:50px;
+    }
+}
+
+.button___{
+    &start{
+        margin-left:6%;
+        font-weight: bolder;
+        font-size: 1.2em;
+        border:3px solid $color;
+        border-radius: 8px;
+        background:#E99002;
+        color:$color;   
+        padding:2.5% 4%;
+    }
+    &API{
+        background:#165882;
+        color:$color;
+        font-weight:bold;
+        border:1px solid #165882;
+        border-radius:10px;
+        padding:1.5% 3%;
+        margin-right:0.5%;
+    }
+    &Docs{
+        background:#165882;
+        color:$color;
+        font-weight:bold;
+        border: 1px solid #165882;
+        border-radius:10px;
+        padding:1.5% 4%;
+        margin-right:0.5%;
+    }
+    &Build{
+        background:#E99002;
+        color:$color;
+        font-weight:bold;
+        border: 1px solid #E99002;
+        border-radius:10px;
+        padding:1.5% 1.5%;
+    }
+    
+}
+/* Bouton footer */
+.buttondiv{
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
+    padding-bottom:8%;
+    font-size:1.2em;
+}
+//Corps de l'index
+
+.atout{
+    article{
+        margin-top:20px;
+        & p{
+            color:#CFCFD9;
+            text-align:justify;
+            font-size:1em;
+            width:100%;
+        }
+        & h2{
+            font-size:1.6em;
+            font-weight:normal;
+            margin-bottom:15px;
+        }
+    }
+    .col1{
+        margin-right:40px;
+        margin-left:10%;
+    }
+    .col2{
+        margin-right:10%;  
+    }
+}
+.innovative{
+    margin-top:50px;
+    padding:2%;
+    border-bottom: 2px solid rgba(192, 190, 190, 0.589);
+    background:$background;
+    color:#6F6F6F;
+    text-align:center;
+    font-size:1.4em;
+    font-weight:normal;
+}
+
+//Footer
+
+.imgfoot{
+    background:#EEEEEE;
+    padding: 4%;
+    border-bottom: 2px solid rgba(192, 190, 190, 0.589);
+        & img{
+            &:first-child{
+                margin-left:15%;
+                width:10%;
+            }
+            &:nth-child(2){
+                margin-left:3%;
+                width:6%;
+            }
+            &:nth-child(3){
+                margin-left:3%;
+                width:12%;
+            }
+            &:nth-child(4){
+                margin-left:3%;
+                width:15%;
+            }
+            &:nth-child(5){
+                margin-left:3%;
+                width:11%;
+            }
+            &:nth-child(6){
+                margin-left:3%;
+                margin-right:15;
+                width:9%;
+            }
+            &:nth-child(7){
+                width:(100/5)*1%;
+                margin-top:4%;
+                margin-left:43%;
+                margin-right:37%;
+                border-bottom: 1px solid rgba(238, 238, 238, 0.534);
+            }
+        }
+}

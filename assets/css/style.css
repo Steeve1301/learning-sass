@@ -1,253 +1,254 @@
-/* Ajout de Fonts */
-@font-face{
-    font-family: 'OpenSans';
-    src: url(fonts/OpenSans-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face{
-    font-family: 'OpenSans';
-    src: url(fonts/OpenSans-Bold.ttf);
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face{
-    font-family: 'OpenSans';
-    src: url(fonts/OpenSans-Italic.ttf);
-    font-weight: normal;
-    font-style: italic;
-}
-body{
-    background:#1E93CC;
-    color:white;
-    font-family: 'OpenSans', sans-serif;
-    font-size:normal;
+@font-face {
+  font-family: 'OpenSans';
+  src: url(fonts/OpenSans-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* Barre de navigation */
-
-nav:first-child{
-    background:#333333;
-    background-image: url(../img/restdblogo.png);
-    background-size: 70px;
-    background-position-x: 9%;
-    background-position-y: 30%;
-    background-repeat: no-repeat;
-    font-size:0.8em;
-    height:45px;
-}
-nav:first-child a{
-    color:white;
-}
-nav:first-child ul li:first-child{
-    padding-left: 17%;
-}
-nav:first-child ul li{
-    display:inline-block;
-    margin-right:30px;
-    margin-top:15px;
-}
-nav:first-child ul li:nth-child(8){
-    float:right;
-    margin-right:5%;
+@font-face {
+  font-family: 'OpenSans';
+  src: url(fonts/OpenSans-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
 }
 
-/* Header accueil */
-
-header{
-    background-image:url(../img/restdblogo.png);
-    background-repeat: no-repeat;
-    background-size:24%;
-    background-position-x: 55%;
-    background-position-y: 15%;
-    display:flex;
-    justify-content: center;
+@font-face {
+  font-family: 'OpenSans';
+  src: url(fonts/OpenSans-Italic.ttf);
+  font-weight: normal;
+  font-style: italic;
 }
 
-.imgheader{
-    margin-top:2.5%;
-    margin-left:8%;
-    justify-content: center;
-    width:20%;
-    height:auto;
-}
-.imgheader img{
-    width:100%;
-    height:auto;
-}
-.buttonheader{
-
-    width:80%;
-    margin-top:11%;
-    margin-left:15%;
+body {
+  background: #1E93CC;
+  color: white;
+  font-family: 'OpenSans', sans-serif;
+  font-size: normal;
 }
 
-.buttonstart{
-    margin-left:6%;
-    font-weight: bolder;
-    font-size: 1.2em;
-    border:3px solid white;
-    border-radius: 8px;
-    background:#E99002;
-    color:white;   
-    padding:2.5% 4%;
-}
-.buttonheader p{
-    font-size:1.5em;
-    width:55%;
-    margin-bottom:50px;
-}
-/*Corps de l'index */
-.awesome{
-    background:white;
-    color:black;
-    font-weight: normal;
-    text-align:center;
-    font-size:1.5em;
-    margin-top: 50px;
-    padding:18px;
-    margin-bottom:30px;
-}
-section{
-    
-    display:flex;
-    justify-content: center;
-}
-.atout article{
-    margin-top:20px;
-
-}
-.col1{
-    margin-right:40px;
-    margin-left:10%;
-    
-}
-.col2{
-    margin-right:10%;    
-}
-article p{
-    color:#CFCFD9;
-    text-align:justify;
-    font-size:1em;
-    width:100%;
-}
-article h2{
-    font-size:1.6em;
-    font-weight:normal;
-    margin-bottom:15px;
-}
-.innovative{
-    margin-top:50px;
-    padding:2%;
-    border-bottom: 2px solid rgba(192, 190, 190, 0.589);
-    background:white;
-    color:#6F6F6F;
-    text-align:center;
-    font-size:1.4em;
-    font-weight:normal;
+body h1 {
+  background: white;
+  color: black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 50px;
+  padding: 18px;
+  margin-bottom: 30px;
 }
 
-/* Footer */
+body section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
-footer{
-    background:white;
+nav {
+  background: #333333;
+  background-image: url(../img/restdblogo.png);
+  background-size: 70px;
+  background-position-x: 9%;
+  background-position-y: 30%;
+  background-repeat: no-repeat;
+  font-size: 0.8em;
+  height: 45px;
 }
-.imgfoot{
-    background:#EEEEEE;
-    padding: 4%;
-    border-bottom: 2px solid rgba(192, 190, 190, 0.589);
+
+nav a {
+  color: white;
 }
-.imgfoot img:first-child{
-    margin-left:15%;
-    width:10%;
+
+nav ul li:first-child {
+  padding-left: 17%;
 }
-.imgfoot img:nth-child(2){
-    margin-left:3%;
-    width:6%;
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 15px;
 }
-.imgfoot img:nth-child(3){
-    margin-left:3%;
-    width:12%;
+
+nav ul li:nth-child(8) {
+  float: right;
+  margin-right: 5%;
 }
-.imgfoot img:nth-child(4){
-    margin-left:3%;
-    width:15%;
+
+header {
+  background-image: url(../img/restdblogo.png);
+  background-repeat: no-repeat;
+  background-size: 24%;
+  background-position-x: 55%;
+  background-position-y: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.imgfoot img:nth-child(5){
-    margin-left:3%;
-    width:11%;
+
+header.imgheader {
+  margin-top: 2.5%;
+  margin-left: 8%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20%;
+  height: auto;
 }
-.imgfoot img:nth-child(6){
-    margin-left:3%;
-    margin-right:15;
-    width:9%;
+
+header.imgheader img {
+  width: 100%;
+  height: auto;
 }
-.imgfoot img:nth-child(7){
-    width:20%;
-    margin-top:4%;
-    margin-left:43%;
-    margin-right:37%;
-    border-bottom: 1px solid rgba(238, 238, 238, 0.534);
+
+.buttonheader {
+  width: 80%;
+  margin-top: 11%;
+  margin-left: 15%;
+}
+
+.buttonheader p {
+  font-size: 1.5em;
+  width: 55%;
+  margin-bottom: 50px;
+}
+
+.button___start {
+  margin-left: 6%;
+  font-weight: bolder;
+  font-size: 1.2em;
+  border: 3px solid white;
+  border-radius: 8px;
+  background: #E99002;
+  color: white;
+  padding: 2.5% 4%;
+}
+
+.button___API {
+  background: #165882;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #165882;
+  border-radius: 10px;
+  padding: 1.5% 3%;
+  margin-right: 0.5%;
+}
+
+.button___Docs {
+  background: #165882;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #165882;
+  border-radius: 10px;
+  padding: 1.5% 4%;
+  margin-right: 0.5%;
+}
+
+.button___Build {
+  background: #E99002;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #E99002;
+  border-radius: 10px;
+  padding: 1.5% 1.5%;
 }
 
 /* Bouton footer */
-.buttondiv{
-    display:flex;
-    justify-content: center;
-    margin-top:5%;
-    padding-bottom:8%;
-    font-size:1.2em;
-}
-.APIbutton{
-
-    background:#165882;
-    color:white;
-    font-weight:bold;
-    border:1px solid #165882;
-    border-radius:10px;
-    padding:1.5% 3%;
-    margin-right:0.5%;
-}
-.Docsbutton{
-    background:#165882;
-    color:white;
-    font-weight:bold;
-    border: 1px solid #165882;
-    border-radius:10px;
-    padding:1.5% 4%;
-    margin-right:0.5%;
-}
-.Buildingbutton{
-
-    background:#E99002;
-    color:white;
-    font-weight:bold;
-    border: 1px solid #E99002;
-    border-radius:10px;
-    padding:1.5% 1.5%;
+.buttondiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+  padding-bottom: 8%;
+  font-size: 1.2em;
 }
 
-/* NAV footer  */
+.atout article {
+  margin-top: 20px;
+}
 
-footer nav{
-    background:#222222;
-    padding-top:1%;
-    padding-bottom:2%;
-    padding-left:1%;
-    font-size:0.8em;
+.atout article p {
+  color: #CFCFD9;
+  text-align: justify;
+  font-size: 1em;
+  width: 100%;
 }
-footer nav ul li i{
-    color:white;
-    margin-left:2px;
-    margin-right:2px;
+
+.atout article h2 {
+  font-size: 1.6em;
+  font-weight: normal;
+  margin-bottom: 15px;
 }
-footer nav ul li:nth-child(6){
-    float:right;
+
+.atout .col1 {
+  margin-right: 40px;
+  margin-left: 10%;
 }
-footer nav ul li a{
-    color:white;
+
+.atout .col2 {
+  margin-right: 10%;
 }
-footer nav ul li{
-    list-style: none;
-    display:inline-block;
+
+.innovative {
+  margin-top: 50px;
+  padding: 2%;
+  border-bottom: 2px solid rgba(192, 190, 190, 0.589);
+  background: white;
+  color: #6F6F6F;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: normal;
 }
+
+.imgfoot {
+  background: #EEEEEE;
+  padding: 4%;
+  border-bottom: 2px solid rgba(192, 190, 190, 0.589);
+}
+
+.imgfoot img:first-child {
+  margin-left: 15%;
+  width: 10%;
+}
+
+.imgfoot img:nth-child(2) {
+  margin-left: 3%;
+  width: 6%;
+}
+
+.imgfoot img:nth-child(3) {
+  margin-left: 3%;
+  width: 12%;
+}
+
+.imgfoot img:nth-child(4) {
+  margin-left: 3%;
+  width: 15%;
+}
+
+.imgfoot img:nth-child(5) {
+  margin-left: 3%;
+  width: 11%;
+}
+
+.imgfoot img:nth-child(6) {
+  margin-left: 3%;
+  margin-right: 15;
+  width: 9%;
+}
+
+.imgfoot img:nth-child(7) {
+  width: 20%;
+  margin-top: 4%;
+  margin-left: 43%;
+  margin-right: 37%;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.534);
+}
+/*# sourceMappingURL=style.css.map */
